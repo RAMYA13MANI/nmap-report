@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nmap Scan Report</title>
+</head>
+<body>
+    <h1>📡 Nmap Scan Report</h1>
+
+    <p>This report was generated using <b>Nmap</b> on <b>Kali Linux</b> to analyze the local network for open ports.</p>
+
+    <h2>🖥️ Target Host:</h2>
+    <p><b>192.168.52.29</b></p>
+
+    <h2>✅ Open Ports Detected:</h2>
+    <pre>
+PORT     STATE  SERVICE
+80/tcp   open   http
+135/tcp  open   msrpc
+139/tcp  open   netbios-ssn
+443/tcp  open   https
+445/tcp  open   microsoft-ds
+1521/tcp open   oracle
+3306/tcp open   mysql
+    </pre>
+
+    <h3>📅 Scan Info:</h3>
+    <p>
+        Nmap 7.95 scan initiated on <b>Mon Jun 23, 2025</b><br>
+        Command used: <code>nmap --privileged -sS -oN scanresult.txt 192.168.52.29</code><br>
+        993 ports filtered<br>
+        Host was up (0.0018s latency)<br>
+        Scan completed in 4.51 seconds
+    </p>
+
+    <footer>
+        <hr>
+        <p>🔒 Report generated for <i>Cyber Security Internship</i> | Tool used: <b>Nmap</b></p>
+    </footer>
+</body>
+</html>
